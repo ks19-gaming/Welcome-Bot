@@ -26,5 +26,5 @@ return;
  
 }
 module.exports.help = {
-  name: "channel"
+  name: "welcomesetup"
 }
