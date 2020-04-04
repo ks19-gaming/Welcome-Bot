@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
 
 	let permission = message.member.hasPermission("ADMINISTRATOR");
 
-if(!permission) return message.channel.send("You are missing the permission `ADMINISTRATOR`")
+if(!permission) return message.channel.send("You are missing the permission *ADMINISTRATOR*")
 
  let cArgs = args[0]
  
@@ -26,5 +26,5 @@ return;
  
 }
 module.exports.help = {
-  name: "welcomesetup"
+  name: "setup"
 }
