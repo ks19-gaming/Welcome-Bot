@@ -65,7 +65,7 @@ bot.on('guildMemberAdd', async member => {
 	
 	if(!wChan) return;
 	
-let font = await jimp.loadFont(jimp.FONT_SANS_32_WHITE) //We declare a 32px font
+let font = await jimp.loadFont(jimp.FONT_SANS_64_WHITE) //We declare a 32px font
   let font64 = await jimp.loadFont(jimp.FONT_SANS_64_WHITE) //We declare a 64px font
   let bfont64 = await jimp.loadFont(jimp.FONT_SANS_64_WHITE)
   let mask = await jimp.read('https://i.imgur.com/552kzaW.png') //We load a mask for the avatar, so we can make it a circle instead of a shape
