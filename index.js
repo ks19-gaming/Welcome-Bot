@@ -69,7 +69,7 @@ let font = await jimp.loadFont(jimp.FONT_SANS_64_WHITE) //We declare a 32px font
   let font64 = await jimp.loadFont(jimp.FONT_SANS_64_WHITE) //We declare a 64px font
   let bfont64 = await jimp.loadFont(jimp.FONT_SANS_64_WHITE)
   let mask = await jimp.read('https://i.imgur.com/552kzaW.png') //We load a mask for the avatar, so we can make it a circle instead of a shape
-  let welcome = await jimp.read('https://cdn.discordapp.com/attachments/695957380025942071/695965278768594975/black.jpg') //We load the base image
+  let welcome = await jimp.read('https://cdn.discordapp.com/icons/747856549476696196/d9566143f2e8da8a569da707195a1d79.png') //We load the base image
 
   jimp.read(member.user.displayAvatarURL).then(avatar => { //We take the user's avatar
     avatar.resize(200, 200) //Resize it
