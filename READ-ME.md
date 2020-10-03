@@ -1,7 +1,7 @@
 # MADE BY [Yashraj Gaming](https://m.youtube.com/channel/UCq6l5VljzI5mb7jdCeWcmew)
 How to setup video totorial?
 
-Link:- []()
+Link:- [https://youtu.be/Wbb7u2QRU5w](https://youtu.be/Wbb7u2QRU5w)
 
 Discord Support:- [https://discord.gg/7cXrGeZ](https://discord.gg/7cXrGeZ)
 
